@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #f0f0f0;
+}
+canvas {
+  display: block;
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #000;
+  background: #fff;
+}
+.highscore {
+  text-align: center;
+  margin-bottom: 850px;
+  font-size: 1.5em;
+  margin-top: 16px;
+  font-size: 2em;
+  color: #1a8917;
+}
+.top-bar {
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 800px;
+}
+#startAllBtn {
+  margin-left: 1550px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+#startBtn {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  z-index: 10;
+  font-size: 2.5em;
+  padding: 30px 60px;
+  border-radius: 20px;
+  background: #1a8917;
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+#startBtn:hover {
+  background: #155d15;
+}
